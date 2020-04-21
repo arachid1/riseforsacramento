@@ -1,0 +1,287 @@
+@font-face {
+    font-family: 'League Gothic';
+    src: local('League Gothic'), local('LeagueGothic'), url(../fonts/league-gothic/leaguegothic-regular-webfont-webfont.woff2) format('woff2') url(../fonts/league-gothic/leaguegothic-regular-webfont.woff) format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+header {
+    background-color: #fff;
+    height: 80px;
+}
+
+header a {
+    float: right;
+    margin-top: 10px;
+    margin-right: 60px;
+}
+
+header h3 {
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 35px;
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.holder {
+    background-color: #62bbc0;
+    width: 100%;
+}
+
+.topnav {
+    position: relative;
+    overflow: hidden;
+    min-height: 80px;
+    height: auto;
+}
+
+.topnav button {
+    color: #62bbc0;
+    position: absolute;
+    left: 34%;
+    top: 15%;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.toplogo {
+    padding-top: 10px;
+    padding-bottom: 45px;
+    border-radius: 40%;
+}
+
+.small-logo img {
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    height: auto;
+}
+
+.toplogo img {
+    border-radius: 40%;
+}
+
+.topnav-right {
+    position: absolute;
+    left: 65%;
+    top: 10%;
+    height: auto;
+}
+
+.topnav a {
+    color: #62bbc0;
+}
+
+#email-logo {
+    float: right;
+}
+
+.topcontainer {
+    margin-bottom: 300px;
+}
+
+.team {
+    margin-bottom: 10px;
+}
+
+.team .row {
+    position: relative;
+    width: 100%;
+}
+
+.title {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.team .title {
+    color: #fff;
+}
+
+.name {
+    margin-top: 40px;
+    color: #fff;
+    font-size: 21px;
+    text-align: center;
+}
+
+.position {
+    margin-top: 5px;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+}
+
+.bio {
+    margin-top: 30px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    height: auto;
+}
+
+.team-column {
+    padding: auto;
+    margin: auto;
+    float: left;
+    width: 25%;
+    height: auto;
+    min-height: 440px;
+}
+
+.partners .title {
+    color: #62bbc0;
+}
+
+.partner-column {
+    padding: auto;
+    margin: auto;
+    float: left;
+    width: 33%;
+}
+
+.partner-img {
+    margin: auto;
+    width: 50%;
+    display: block;
+}
+
+.partners {
+    background-color: white;
+    padding-bottom: 100px;
+    margin-bottom: 45px;
+}
+
+.team-img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.progress {
+    margin: auto;
+    margin-top: 30px;
+    width: 60%;
+    margin-bottom: 60px;
+}
+
+.progress p {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+}
+
+#fundraising-target {
+    color: white;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    height: 60px;
+    width: auto;
+    text-align: center;
+    left: 78.6%;
+    top: 188%;
+}
+
+#second {
+    text-align: center;
+}
+
+.donate-button {
+    background-color: #f7c243;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10%;
+    display: block;
+    margin: 0 auto;
+    width: 130px;
+    height: 50px;
+    margin-bottom: 80px;
+    padding: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#donation-title {
+    padding-top: 60px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+#portfolio-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: white;
+}
+
+
+/* Clear floats after the columns */
+
+.carousel-inner>.item>img {
+    margin: 0 auto;
+}
+
+.vl {
+    border-left: 500px solid #0065cf;
+    width: 500px;
+    height: 10px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    position: relative;
+    background-color: #62bbc0;
+    height: 120px;
+}
+
+.footer p {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.bottom_logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+#thankyou {
+    position: relative;
+    padding-top: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#contactus {
+    position: relative;
+    font-family: -apple-system, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#rights {
+    position: relative;
+    padding-top: 5px;
+    color: white;
+    font-family: -apple-system, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #62bbc0;
+    color: #fff;
+    width: 600px;
+}
